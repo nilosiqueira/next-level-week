@@ -37,7 +37,7 @@ posicionamento, alinhamentos.
 #page-home {
   height: 100vh;
   background: url('../assets/home-background.svg') no-repeat;
-  background-position: 35vw bottom;
+  background-position: 35vw 100px;
 }
 
 #page-home .content {
@@ -84,7 +84,8 @@ posicionamento, alinhamentos.
 
 #page-home main p {
   font-size: 24px;
-  line-height: 30px;
+  line-height: 38px;
+  margin-top: 24px;
 }
 
 #page-home main a {
@@ -96,7 +97,7 @@ posicionamento, alinhamentos.
   align-items: center;
   margin-top: 40px;
   background-color: var(--primary-color);
-  transition: 4000ms;
+  transition: 400ms;
 }
 
 #page-home main a:hover {
@@ -129,7 +130,7 @@ posicionamento, alinhamentos.
 
 @media (max-width: 900px) {
   #page-home {
-    background-position-x: 7vw;
+    background-position-x: 70vw;
   }
   #page-home .content {
     align-items: center;
